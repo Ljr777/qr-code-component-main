@@ -1,0 +1,50 @@
+body {
+	background-color: #bac8ff;
+	display: flex;
+	flex-direction: column;
+	font-family: "Outfit", sans-serif;
+}
+.heading {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: hsl(218, 44%, 22%);
+}
+.cta {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	color: hsl(220, 15%, 55%);
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-div {
+	/* To centre the main div */
+	border-radius: 20px;
+	background-color: #ffff;
+	max-width: 330px;
+	margin: 50px auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.qr-img {
+	border-radius: 15px;
+	margin: 15px;
+	max-width: 300px;
+}
+
+.hr-centre {
+	align-items: center;
+}
+
+.vr-centre {
+	justify-content: center;
+}
+
+/* knowing how to size things inside the other */
+/* the border box for the h1 is overwriting that of the paragraph element */
