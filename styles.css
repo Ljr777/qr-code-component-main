@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Outfit", sans-serif;
+  align-items: center;
 }
 .heading {
   font-size: 25px;
@@ -44,6 +45,9 @@ body {
 
 .vr-centre {
   justify-content: center;
+}
+
+@media (max-width: 35rem) {
 }
 
 /* knowing how to size things inside the other */
